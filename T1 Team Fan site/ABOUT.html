@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/CSS/materialize.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="icon" href="T1.png">
+    <title>T1 Team Fan Site</title>
+<style>
+
+.brand-logo{
+    position: absolute;
+    top: 9px;
+    width: 200px;
+    left: auto;
+    display: inline-block;
+    height: 65px;
+
+}
+
+nav{
+    height: 80px;
+}
+body{
+    background-color: rgb(39, 38, 38);
+    min-height: 800px;
+}
+h2{
+    font-size: 35px;
+}
+p{
+    font-size: 16px;
+}
+.des{
+    font-size: 16px;
+    
+    margin-left: 30px;
+    margin-right: 30px;
+}
+h4{
+    text-decoration: underline;
+}
+.joe{
+    color: aliceblue;
+}
+h2{
+    font-size: 18px;
+    margin-top: auto;
+    
+}
+
+</style>
+</head>
+<body>
+    <header>
+        <nav class="nav-wrapper black lighten-1">
+            <div class="container">
+              <img src="T1.png" class="brand-logo"></a>
+             <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+              
+             <ul class="right hide-on-med-and-down">
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="ABOUT.html">ABOUT</a></li>
+                <li><a href="Members.html">MEMBERS</a></li>
+                <li><a href="Game.html">GAME</a></li>
+              </ul> 
+              <ul class="sidenav black center" id="mobile-demo">
+                <h5 class="red-text center">T1 Fan Site</h5>
+                <li><a href="index.html" class="waves-effect waves-light white-text">HOME</a></li>
+                <li><a href="ABOUT.html" class="waves-effect waves-light white-text">ABOUT</a></li>
+                <li><a href="Members.html" class="waves-effect waves-light white-text">MEMBERS</a></li>
+                <li><a href="Game.html" class="waves-effect waves-light white-text">GAME</a></li>
+              </ul>
+            </div>
+        </nav>
+    </header>
+   
+    <div class="parallax-container">
+        <div class="parallax">
+            <img src="Image/download.jpg" class="responsive-img">
+        </div>
+    </div>
+    <section class="container section">
+        <div class="row">
+            <div class="col s12 l10 white-text">
+                <h4>ABOUT T1</h4>
+                <p>Rooted in our legacy of raising trophies and inspired by our passion for victory.</p>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <div class="col s12 white-text">
+        <p class="des">T1 Entertainment & Sports is a global esports joint venture that owns and operates the ultra-successful T1 League of Legends (LoL) Champions Korea (LCK) team, along with teams in competitive gaming segments that include Dota 2, Super Smash Bros., Valorant, Wild Rift, Overwatch Contenders, Splitgate. Building upon the rich legacy of SKT T1, T1 will expand its teams globally, celebrate new victories, and create even more opportunities for fans to embrace T1’s gaming culture, content, and players in every corner of the world.</p>
+        <section class="container section">
+            
+            <div class="row">
+                <div class="col s12 white-text">
+                    <h4 class="lead">LEADERSHIP:</h4>
+                </div>
+            </div>
+            </div>
+        </section>
+
+            <div class="row">
+                <div class="col s12 l6 ">
+                    <img src="/Image/leader.jpg" alt="" class="responsive-img materialboxed">
+                </div>
+                <div class="col s12 l6 offset-l20">
+                    <h2 class="indigp-text white-text">JOE MARSH - CEO</h2>
+                    <p class="joe">Joe Marsh is CEO of T1 Entertainment & Sports, a global esports joint venture created by Comcast Spectacor and SK Telecom in October 2019. He oversees operations based in Seoul, Philadelphia, Los Angeles and is responsible for the growth and optimization of T1's global presence and expansion into new businesses and revenue streams surrounding competitive gaming culture and lifestyle, content, and merchandise. <br></br>
+
+                        Joe previously served as Chief Business Officer of Comcast's Spectacor Gaming division and the Philadelphia Fusion esports franchise that competes in the Overwatch League <br>
+                        
+                        <br> was named Vice President and Chief Financial Officer of the Fusion in 2018, providing direct oversight of financials for the team, including budgeting, forecasting, and long-range planning. Prior to joining Spectacor Gaming and the Philadelphia Fusion, Joe held several finance positions at Comcast Spectacor, where he was responsible for the development, coordination, consolidation and communication of the company's annual budgeting, long-range planning and forecasting functions for Comcast Spectacor's core businesses. Joe graduated with a degree in Marketing from Millersville University and later earned his MBA in Finance, Analytics and Strategic Management from Villanova University. Marsh currently serves as a strategic advisor to Spectacor Gaming, G4tv and the Philadelphia Fusion. Joe previously served as a board member of Nerd Street Gamers. Joe lives in the Philadelphia area with his wife Kelly and daughters Caden and Colbie.</p>
+                </div>
+            </div>
+
+    <script src="jquery/jquery.js"></script>
+    <script src="jquery/materialize.min.js" ></script>
+    <script>
+        $ (document).ready(function(){
+            $('.sidenav').sidenav();
+            $('.materialboxed').materialbox();
+            $('.parallax').parallax();
+        });
+    </script>
+
+</body>
+</html>
